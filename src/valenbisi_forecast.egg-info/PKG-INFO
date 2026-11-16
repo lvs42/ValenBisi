@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: valenbisi-forecast
+Version: 0.1.0
+Summary: Predicción de disponibilidad de bicis de Valenbisi
+Requires-Python: >=3.11
+Requires-Dist: requests>=2.32
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: numpy==2.2.6
+Requires-Dist: pandas==2.2.3
+Requires-Dist: pg8000>=1.31
+Provides-Extra: dev
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ipykernel; extra == "dev"

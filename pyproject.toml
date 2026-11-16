@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valenbisi-forecast"
+version = "0.1.0"
+description = "Predicción de disponibilidad de bicis de Valenbisi"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32",
+    "python-dotenv>=1.0",
+    # Pinned: newer numpy DLLs are blocked by Windows Smart App Control
+    "numpy==2.2.6",
+    "pandas==2.2.3",
+    "pg8000>=1.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pre-commit",
+    "pytest",
+    "ipykernel",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
