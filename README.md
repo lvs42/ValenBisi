@@ -4,3 +4,5 @@ This project will predict, 30 minutes in advance, how many bikes will be availab
 API used: https://docs.citybik.es/api/v2
 
 CityBikes API Documentation: https://api.citybik.es/v2/
+
+el cron de GitHub Actions no fue fiable; la ingesta se disparará desde un planificador externo
