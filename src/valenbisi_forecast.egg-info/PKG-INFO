@@ -8,6 +8,7 @@ Requires-Dist: python-dotenv>=1.0
 Requires-Dist: numpy==2.2.6
 Requires-Dist: pandas==2.2.3
 Requires-Dist: pg8000>=1.31
+Requires-Dist: pydantic>=2
 Provides-Extra: dev
 Requires-Dist: ruff; extra == "dev"
 Requires-Dist: pre-commit; extra == "dev"
